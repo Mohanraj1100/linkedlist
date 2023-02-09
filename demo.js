@@ -43,7 +43,7 @@ console.log(rank.includes(2)); // includes
 console.log(rank.indexOf(2));  //indexOf
 console.log(Array.isArray(rank)); // Arrayy.isarray
 console.log(rank.join());       //join
-key1 = rank.keys();     //keys
+let key1 = rank.keys();     //keys
 for(let a of key1)
 {
     console.log(a);
@@ -68,7 +68,8 @@ function myFunc1(a, b) {
 }
 let b = numbers1.reduceRight(myFunc1)
 console.log(b);
-console.log(arr5.reverse());
+arr5.reverse();
+console.log(arr5);
 numbers1.shift();
 console.log(numbers1);
 let arr6 = ["apple","orange","cherry","banana","pine"];
