@@ -37,8 +37,8 @@ rank.forEach(value => {      //foreach
     console.log(value);   
 });
 let n = "ROBERT";
-let name = Array.from(n);     //Array,from
-console.log(name);
+let m = Array.from(n);     //Array,from
+console.log(m);
 console.log(rank.includes(2)); // includes
 console.log(rank.indexOf(2));  //indexOf
 console.log(Array.isArray(rank)); // Arrayy.isarray
@@ -84,7 +84,8 @@ function check(m,n)
 {
     return m-n;
 }
-console.log(ranks.sort(check));
+ranks.sort(check);
+console.log(ranks);
 let animals = ["lion","tiger","horse","cheetah","dog","cat"];
 animals.splice(2,1,"panther","elephant");
 console.log(animals);
