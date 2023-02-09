@@ -23,13 +23,13 @@ function checkgrade(a)
 {
     return a<=3;
 }
-console.log(rank.find(checkgrade));  //find
-function checkgrade(a)
+console.log(rank.find(checkgrade1));  //find
+function checkgrade1(a)
 {
     return a>3;
 }
-console.log(rank.findIndex(checkgrade));  //findindex
-function checkgrade(a)
+console.log(rank.findIndex(checkgrade2));  //findindex
+function checkgrade2(a)
 {
     return a>3;
 }
