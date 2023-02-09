@@ -51,8 +51,8 @@ for(let a of key)
 let arr5 = ["hi","hey","are","hi"];  //lastindex
 console.log(arr5.lastIndexOf("hi"));  
 console.log(arr5.length); //length
-num = [4,9,16,25];  //map
-numbers = num.map(Math.sqrt);
+let num = [4,9,16,25];  //map
+let numbers = num.map(Math.sqrt);
 console.log(numbers);
 num.pop();  //pop
 console.log(num);
@@ -74,7 +74,7 @@ console.log(numbers1);
 let arr6 = ["apple","orange","cherry","banana","pine"];
 let arr7 = arr6.slice(2,5);
 console.log(arr7);
-ranks = [8,10,2,3,4,5,6];
+let ranks = [8,10,2,3,4,5,6];
 function Checkrank(c) {
     return c>3;
 }
@@ -84,14 +84,14 @@ function check(m,n)
     return m-n;
 }
 console.log(ranks.sort(check));
-animals = ["lion","tiger","horse","cheetah","dog","cat"];
+let animals = ["lion","tiger","horse","cheetah","dog","cat"];
 animals.splice(2,1,"panther","elephant");
 console.log(animals);
 animals.unshift("deer");
 console.log(animals);
-message = ["hi","how","are","you"];
-msg = message.toString();
+let message = ["hi","how","are","you"];
+let msg = message.toString();
 console.log(msg);
-birds = ["eagle","pigeon"];
-brds=birds.valueOf();
+let birds = ["eagle","pigeon"];
+let brds=birds.valueOf();
 console.log(brds);
