@@ -40,7 +40,7 @@ class Stack{
     }
     printElements()
     {
-        var temp = this.rootnode;
+        let temp = this.rootnode;
         if(temp == null)
         {
             console.log("Is empty")
@@ -57,7 +57,7 @@ class Stack{
     
 
 }
-var s = new Stack();
+let s = new Stack();
 s.addElement(1);
 s.addElement(2);
 s.addElement(3);
