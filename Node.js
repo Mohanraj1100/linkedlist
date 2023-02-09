@@ -18,7 +18,7 @@ class LinkedList{
             this.count++;
         }
         else{
-            var temp = this.rootnode;
+            let temp = this.rootnode;
             while(temp.nextnode != null)
             {
                 temp = temp.nextnode;
@@ -69,7 +69,7 @@ class LinkedList{
     }
     printElement()
     {
-        var temp = this.rootnode;
+        let temp = this.rootnode;
         if(temp == null)
         {
             console.log("Is empty")
@@ -83,7 +83,7 @@ class LinkedList{
         }
     }
 }
-var list = new LinkedList();
+let list = new LinkedList();
 list.addElement(1);
 list.addElement(2);
 list.addElement(3);
