@@ -31,7 +31,7 @@ class Queue{
     }
     printElements()
     {
-        var temp = this.rootnode;
+        let temp = this.rootnode;
         if(temp == null)
         {
             console.log("Is empty")
@@ -48,7 +48,7 @@ class Queue{
     
 
 }
-var q = new Queue();
+let q = new Queue();
 q.addElement(1);
 q.addElement(2);
 q.addElement(3);
