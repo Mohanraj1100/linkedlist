@@ -11,8 +11,8 @@ for(let x of entry)
     console.log(x);
 }
 let rank = [ 1,2,3,5];  //every
-console.log(rank.every(checkgrade));
-function checkgrade(a)
+console.log(rank.every(checkgradee));
+function checkgradee(a)
 {
     return a<=3;
 }
@@ -43,8 +43,8 @@ console.log(rank.includes(2)); // includes
 console.log(rank.indexOf(2));  //indexOf
 console.log(Array.isArray(rank)); // Arrayy.isarray
 console.log(rank.join());       //join
-key = rank.keys();     //keys
-for(let a of key)
+key1 = rank.keys();     //keys
+for(let a of key1)
 {
     console.log(a);
 }
